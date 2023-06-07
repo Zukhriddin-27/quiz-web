@@ -1,0 +1,22 @@
+.css-1ex1afd-MuiTableCell-root {
+  padding: 24px !important;
+}
+.correct_answer {
+  color: rgb(1, 163, 1) !important;
+}
+.incorrect_answers {
+  color: rgb(178, 2, 2) !important;
+}
+@media screen and (max-width: 600px) {
+  .css-vsp2w5-MuiContainer-root {
+    padding: 20px 10px !important;
+  }
+  .correct_answer,
+  .incorrect_answers {
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
