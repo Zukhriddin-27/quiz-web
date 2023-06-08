@@ -10,6 +10,7 @@ function App() {
     { path: '/', element: <Settings /> },
     { path: '/questions', element: <Question /> },
     { path: '/final', element: <FinalSecrem /> },
+    { path: '*', element: <h1>Not found page</h1> },
   ])
   return routes
 }
